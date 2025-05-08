@@ -24,17 +24,13 @@ All documents use Markdown for easy collaboration and versioning.
 
 ```
 /docs
-├── /adr            # Architecture Decision Records
-│   ├── README.md   # ADR index and explanation
-│   ├── 0001-example-adr.md
-│   └── ...
-├── /prd            # Product Requirements Documents
-│   ├── template.md
-│   └── ...
-├── /design         # Technical Design Documents (TDDs)
-│   ├── template.md
-│   └── ...
-└── README.md       # Documentation overview (this file)
+├── adr/                # Architecture Decision Records
+│   └── 0001-tech-stack-decision.md
+├── design/             # Technical Design Documents (TDDs)
+│   └── isat-challenge-tdd.md
+├── prd/                # Product Requirements Documents
+│   └── isat-challenge-prd.md
+└── readme.md           # Documentation overview (this file)
 ```
 
 ## Using This Documentation
